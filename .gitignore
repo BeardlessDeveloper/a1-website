@@ -23,3 +23,8 @@ GIT_COMMIT_IDENTITY.md
 # Session context — local only
 docs/session-handoff.md
 session-handoff.md
+
+plans/
+
+# Astro-generated local cache
+.astro/

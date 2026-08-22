@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+
+<Layout
+  title="Adoption Document Preparation"
+  description="Stepparent and family adoption document preparation in Grants Pass, Oregon — A1 Quality Paralegal."
+>
+  <section class="page-hero reveal">
+    <div class="page-hero__inner">
+      <h1>Make It Official.</h1>
+      <p>Adoption is one of the most meaningful decisions a family can make. We prepare the documents carefully and personally so you can focus on what matters.</p>
+    </div>
+  </section>
+
+  <section class="content reveal delay-1">
+    <div class="content__inner">
+
+      <h2>Adoption Document Preparation</h2>
+      <p>We prepare legal documents for adoption proceedings in Oregon, including stepparent adoptions and family adoptions. Our role is document preparation — we ensure your paperwork is complete, clearly written, and ready for filing.</p>
+
+      <h2>Types of Adoption We Assist With</h2>
+      <ul>
+        <li>Stepparent adoption — minor children</li>
+        <li>Family member adoption — minor children</li>
+        <li>Adult adoption</li>
+      </ul>
+
+      <h2>We Handle the Filing</h2>
+      <p>We don't just prepare your documents — we handle all court filing on your behalf. You don't need to figure out which county office to contact or how to submit your paperwork. We take care of it from preparation through filing.</p>
+
+      <div class="packages__probate-callout">
+        <strong>Please note:</strong> County court filing fees are required by the court and are not included in our document preparation fee. We will let you know the applicable fee for your county at the time of your appointment.
+      </div>
+
+      <h2>What to Expect</h2>
+      <p>Adoption proceedings involve specific court requirements that vary by county in Oregon. We work with you in person to understand your situation and prepare documents that meet those requirements accurately.</p>
+      <p>We are not attorneys and do not provide legal advice. For complex adoption situations, we recommend consulting with a family law attorney. For many straightforward cases, document preparation and filing is all that is needed to move the process forward.</p>
+
+      <div class="packages__cta" style="margin-top: 40px;">
+        <a class="btn btn--primary" href={`${base}contact-us/`}>Book an Appointment</a>
+        <a class="btn btn--ghost" href={`${base}contact-us/`} style="margin-left: 12px;">Ask a Question</a>
+        <p class="packages__guarantee">If there is ever an error in your documents due to our preparation, we will correct it at no charge.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="assurance reveal delay-2">
+    <div class="assurance__inner">
+      <h2>Personal Care for an Important Moment.</h2>
+      <p>Family owned and operated since 1995. We treat every client — and every case — with the personal attention it deserves. Come sit down with us and we'll take it from there.</p>
+    </div>
+  </section>
+</Layout>

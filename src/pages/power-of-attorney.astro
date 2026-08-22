@@ -1,0 +1,69 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+
+<Layout
+  title="Powers of Attorney & Advanced Directives"
+  description="Durable Power of Attorney, Health Care Power of Attorney, and Oregon Advanced Directive preparation in Grants Pass — A1 Quality Paralegal."
+>
+  <section class="page-hero reveal">
+    <div class="page-hero__inner">
+      <h1>Put the Right People in Charge.</h1>
+      <p>Three documents that make sure your finances, your healthcare, and your personal wishes are in trusted hands — no matter what happens.</p>
+    </div>
+  </section>
+
+  <section class="content reveal delay-1">
+    <div class="content__inner">
+
+      <h2>Why These Documents Work Together</h2>
+      <p>Most people think of estate planning as wills and trusts — but these three documents are just as important. They protect you while you are still alive. Without them, if you are ever incapacitated due to illness, injury, or emergency, the people you love may have no legal authority to act on your behalf — even for something as simple as paying your bills or making a medical decision.</p>
+      <p>Together, these documents cover every angle: your money, your medical care, and your personal wishes.</p>
+
+      <h2>Durable General Power of Attorney</h2>
+      <p>A Durable General Power of Attorney authorizes someone you trust — your agent — to manage your financial affairs if you ever can't. "Durable" means it stays in effect even if you become incapacitated.</p>
+      <p>Your agent may be authorized to manage bank accounts and investments, pay bills, handle real estate, file taxes, and manage business interests — you choose the scope.</p>
+
+      <h2>Health Care Power of Attorney</h2>
+      <p>A Health Care Power of Attorney names someone you trust to make medical decisions on your behalf if you are unable to do so. Without this document, medical providers may not be able to share information with your family, and the person you would want making decisions may have no legal standing to do so.</p>
+
+      <h2>Oregon Advanced Directive</h2>
+      <p>An Oregon Advanced Directive — sometimes called a living will — lets you document your own wishes about specific medical treatments in advance. It covers situations like life-sustaining treatment, artificial nutrition, and comfort care.</p>
+      <p>The Health Care Power of Attorney names a person. The Advanced Directive records your instructions. Together they give your family and medical team everything they need to honor your wishes — removing guesswork from an already difficult situation.</p>
+
+      <h2>Pricing</h2>
+      <p>Individual document preparation: <strong>$250.00 each</strong></p>
+
+      <div class="package-card package-card--featured" style="margin-top: 24px; max-width: 480px;">
+        <span class="package-card__badge">Best Value</span>
+        <h3>Protection Bundle</h3>
+        <ul>
+          <li>Durable General Power of Attorney</li>
+          <li>Health Care Power of Attorney</li>
+          <li>Oregon Advanced Directive</li>
+          <li>Last Will &amp; Testament</li>
+        </ul>
+        <p class="package-card__price">$750.00</p>
+      </div>
+
+      <div class="packages__probate-callout" style="margin-top: 28px; max-width: 600px;">
+        <strong>Need full estate protection?</strong> Our <a href={`${base}estate-planning/`}>Complete Legacy Plan packages</a> include everything above plus a Revocable Trust — which may help your family avoid probate court entirely. Starting at $1,500 for individuals.
+      </div>
+
+      <div class="packages__cta" style="margin-top: 40px;">
+        <a class="btn btn--primary" href={`${base}contact-us/`}>Book an Appointment</a>
+        <a class="btn btn--ghost" href={`${base}contact-us/`} style="margin-left: 12px;">Ask a Question</a>
+        <p class="packages__guarantee">If there is ever an error in your documents due to our preparation, we will correct it at no charge.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="assurance reveal delay-2">
+    <div class="assurance__inner">
+      <h2>One Appointment. Real Peace of Mind.</h2>
+      <p>Family owned and operated since 1995. We prepare all three documents in a single in-person appointment at our Grants Pass office — plain language, questions welcome, and everything explained before you leave.</p>
+      <p class="assurance__inaction">These documents protect you while you are alive. A will protects your family after you are gone. One appointment covers both.</p>
+    </div>
+  </section>
+</Layout>

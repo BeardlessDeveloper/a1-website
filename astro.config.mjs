@@ -5,6 +5,9 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://www.a1paralegal.com',
   output: 'static',
+  redirects: {
+    '/bookings/': '/contact-us/',
+  },
   integrations: [
     react(),
     sitemap({

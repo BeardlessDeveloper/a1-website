@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+
+<Layout
+  title="Deeds & Property Transfers"
+  description="Deed and property transfer document preparation in Grants Pass, Oregon — A1 Quality Paralegal."
+>
+  <section class="page-hero reveal">
+    <div class="page-hero__inner">
+      <h1>Transfer Property the Right Way.</h1>
+      <p>Accurate deed preparation for Oregon property owners — we pull county records so you don't have to.</p>
+    </div>
+  </section>
+
+  <section class="content reveal delay-1">
+    <div class="content__inner">
+
+      <h2>Deed &amp; Transfer Document Preparation</h2>
+      <p>Whether you are transferring property to a family member, adding or removing someone from a title, or moving real estate into a trust, having the deed prepared correctly matters. Errors in a deed can create title problems that are expensive and time-consuming to fix later.</p>
+      <p>We prepare deed documents clearly and accurately — and we pull Oregon county property records on your behalf, so you don't need to track down that information yourself.</p>
+
+      <h2>Common Deed Services</h2>
+      <ul>
+        <li>Transfer on Death Deed — transfer property directly to a beneficiary without probate</li>
+        <li>Quitclaim Deed — transfer ownership interest between parties</li>
+        <li>Warranty Deed — transfer with a guarantee of clear title</li>
+        <li>Trust Transfer Deed — move property into or out of a living trust</li>
+        <li>Adding or removing a spouse or family member from a title</li>
+      </ul>
+
+      <h2>Oregon Property Records &amp; Filing</h2>
+      <p>We obtain deed and property information directly from the county for any Oregon property — you do not need to bring your deed or look up parcel numbers. We also handle all county recording and filing on your behalf once your deed is prepared.</p>
+
+      <div class="packages__probate-callout">
+        <strong>Please note:</strong> County recording fees are required by the county and are not included in our document preparation fee. We will let you know the applicable fee for your property's county at the time of your appointment.
+      </div>
+
+      <div class="packages__probate-callout">
+        <strong>Note on out-of-state property:</strong> We specialize in Oregon property documents. Out-of-state deeds are not advertised as a standard service but may be available on request and typically come at an additional cost. Contact us to discuss your situation.
+      </div>
+
+      <div class="packages__cta" style="margin-top: 40px;">
+        <a class="btn btn--primary" href={`${base}contact-us/`}>Book an Appointment</a>
+        <a class="btn btn--ghost" href={`${base}contact-us/`} style="margin-left: 12px;">Ask a Question</a>
+        <p class="packages__guarantee">If there is ever an error in your documents due to our preparation, we will correct it at no charge.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="assurance reveal delay-2">
+    <div class="assurance__inner">
+      <h2>Prepared With Care Since 1995.</h2>
+      <p>Family owned and operated in Grants Pass. We prepare your deed documents in person, walk you through what was prepared, and make sure the transfer reflects exactly what you intend.</p>
+    </div>
+  </section>
+</Layout>

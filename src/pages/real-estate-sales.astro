@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+
+<Layout
+  title="Real Estate Sales Documents"
+  description="Real estate sales document preparation in Grants Pass, Oregon — trust deeds and sales agreements from A1 Quality Paralegal."
+>
+  <section class="page-hero reveal">
+    <div class="page-hero__inner">
+      <h1>Real Estate Transactions, Done Right.</h1>
+      <p>Trust deeds and sales agreements prepared accurately for Oregon real estate transactions — in person, with care.</p>
+    </div>
+  </section>
+
+  <section class="content reveal delay-1">
+    <div class="content__inner">
+
+      <h2>Real Estate Sales Document Preparation</h2>
+      <p>Real estate transactions require precise documentation. A poorly prepared document can create title problems, financing issues, or legal disputes long after the transaction is complete. We prepare your real estate documents carefully to reflect the exact terms of your transaction.</p>
+
+      <h2>Documents We Prepare</h2>
+
+      <h3>Trust Deeds</h3>
+      <p>A trust deed — also called a deed of trust — is used in Oregon real estate financing. It transfers legal title to a trustee as security for a loan, protecting the lender's interest while the borrower retains use of the property. We prepare trust deeds accurately for Oregon property transactions.</p>
+
+      <h3>Sales Agreements</h3>
+      <p>A real estate sales agreement documents the terms between a buyer and seller — purchase price, conditions, timelines, and responsibilities. Having a clearly written agreement protects both parties and keeps the transaction on track.</p>
+
+      <h2>Oregon Property Records</h2>
+      <p>We obtain property records directly from Oregon counties as part of the preparation process. You do not need to track down deed information or parcel numbers — we handle that for you.</p>
+
+      <div class="packages__probate-callout">
+        <strong>Note:</strong> We specialize in Oregon property documents. Out-of-state properties are not a standard service but may be available on request at an additional cost. Contact us to discuss your situation.
+      </div>
+
+      <div class="packages__cta" style="margin-top: 40px;">
+        <a class="btn btn--primary" href={`${base}contact-us/`}>Book an Appointment</a>
+        <a class="btn btn--ghost" href={`${base}contact-us/`} style="margin-left: 12px;">Ask a Question</a>
+        <p class="packages__guarantee">If there is ever an error in your documents due to our preparation, we will correct it at no charge.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="assurance reveal delay-2">
+    <div class="assurance__inner">
+      <h2>Accurate Documents. Personal Service. Since 1995.</h2>
+      <p>Family owned and operated in Grants Pass. We prepare your real estate documents in person and make sure every detail is right before you leave our office.</p>
+    </div>
+  </section>
+</Layout>

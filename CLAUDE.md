@@ -58,3 +58,16 @@ To initialize after a fresh clone: `git submodule update --init --recursive`
 - At the end of every session update `docs/session-handoff.md` with what was done,
   current state, and what the next session should start with
 - Read `docs/session-handoff.md` at the start of every session before doing anything else
+
+## Communication Schema
+
+Use this collaboration pattern for composer/template and instruction-rule audits:
+
+- work command by command
+- inspect exact current output or marker behavior first
+- discuss the abstract office rule before editing code
+- distinguish clearly between:
+  - current behavior
+  - historical authority
+  - proposed improvement
+- only edit code after the conceptual model is aligned
